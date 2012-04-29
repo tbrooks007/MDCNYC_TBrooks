@@ -1,0 +1,44 @@
+@charset UTF-8
+	
+	.page {
+	width : 1200px;
+	height : 800px;
+	}
+	
+	h1 {
+	text-align: center;
+	font-family: arial;
+	}
+	
+	.container {
+	width: 1200px;
+	height: 768px;
+	background: url("duel.jpg") no-repeat;
+	background-position: center;
+	background-color: #06082e;
+
+	}
+	
+	.graphcontainer {
+	width: 800px;
+	height: 800px;
+	margin: 0 auto;
+	
+	}
+	
+	.graph1 {
+	width : 200px;
+	height: 70%;
+	float : left;
+	background-color: #4edd8e;
+	z-index: 2;
+	}
+	
+	.graph2 {
+	width : 200px;
+	height: 70%;
+	float : right;
+	background-color: #b72673;
+	z-index: 1;
+	}
+
